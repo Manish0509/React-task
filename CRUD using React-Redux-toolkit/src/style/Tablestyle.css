@@ -1,0 +1,62 @@
+.add-btn {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 8px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+th,
+td {
+  text-align: center;
+}
+.container {
+  overflow: auto;
+  align-items: center;
+}
+.form-control {
+  display: inline-flex;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dataStatus {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+#show-inactive,
+#show-all,
+#show-active {
+  margin: 5px;
+  cursor: pointer;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-link {
+  cursor: pointer;
+}
+#PageData {
+  margin: 5px;
+  padding: 5px;
+}
+
+#PageNo {
+  font-weight: bolder;
+  border: 3px solid darkmagenta;
+  color: blue;
+  margin: 5px;
+  padding: 5px;
+}

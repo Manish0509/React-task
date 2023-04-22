@@ -1,0 +1,93 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 20%;
+  align-items: center;
+}
+
+#heading {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.idSection,
+.locationSection,
+.descSection,
+.formStatus {
+  width: 90%;
+}
+
+textarea {
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  resize: none;
+}
+
+#id,
+#location {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+#locText,
+#idText,
+#descText,
+#statusText {
+  display: flex;
+}
+b {
+  color: red;
+  align-items: center;
+}
+#statusBtn {
+  width: 55%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-top: 5px;
+}
+.errorMessage {
+  color: red;
+  margin-top: 0px;
+}
+#addBtn {
+  width: 100px;
+  margin-left: 60%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  padding: 8px;
+  color: white;
+  background-color: green;
+}
+#addBtn:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}

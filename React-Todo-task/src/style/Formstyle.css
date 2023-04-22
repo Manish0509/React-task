@@ -1,0 +1,61 @@
+body {
+  background-color: teal;
+}
+.main-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form {
+  display: inline-block;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid black;
+}
+.task-assignee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  color: red;
+}
+#title,
+#desc {
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+textarea {
+  resize: none;
+}
+.assignee {
+  margin-left: 10px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.submit-btn {
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: darkgreen;
+  cursor: pointer;
+  text-align: center;
+}
+.submit-btn:hover {
+  background-color: green;
+}
